@@ -1,0 +1,18 @@
+# Solicitar dados do usuário
+nome = escreva("Digite seu nome: ")
+       leia(nome)
+sexo = escreva("Digite seu sexo (M/F): ")
+       leia("M/F:")
+estado_civil = escreva("Digite seu estado civil (Solteiro(a)/Casado(a)/Outro): ")
+
+# Verificar condição específica para sexo "F" e estado civil "Casada"
+if sexo.upper() == "F" and estado_civil.upper() == "CASADA":
+    tempo_casada = escreva("Digite o tempo de casada em anos: ")
+
+# Mostrar os dados do usuário
+escreva("\nDados do usuário:")
+escreva(f"Nome: {nome}")
+escreva(f"Sexo: {sexo}")
+escreva(f"Estado Civil: {estado_civil}")
+if sexo.upper() == "F" and estado_civil.upper() == "CASADA":
+    escreva(f"Tempo de casada: {tempo_casada} anos")
