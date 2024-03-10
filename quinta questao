@@ -1,0 +1,43 @@
+programa {
+  funcao inicio() {
+
+//Declarando variaveis
+
+caracter operacao 
+real resultado 
+inteiro a,b 
+
+//Leitura de dados
+   
+  escreva("Digite a operação (+, -, *, /): ")
+   leia(operacao)
+
+   escreva("Digite o valor de A: ")
+   leia("a")
+   
+   escreva("Digite o valor de B: ")
+   leia("b")
+
+//Exibindo resultados
+   (se operacao igual a "+" entao)
+      resultado = a + b
+      escreva("O resultado da operação é: ")
+   
+   senao se operacao igual a "-" entao
+      resultado =- a - b
+      escreva("O resultado da operação é: ")
+
+   senao se operacao igual a "*" entao
+      resultado =- a * b
+      escreva("O resultado da operação é: ")
+
+   senao se operacao igual a "/" entao
+      resultado = a/b
+      escreva("O resultado da operação é: ")
+
+   senao
+      escreva("Operação inválida.")
+
+
+  }
+}
