@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+ 
+//Declarando variaveis
+
+real nota1, nota2, media  
+
+//Leitura de dados
+
+Escreva("Digite a primeira nota: ")
+Leia("nota1")
+
+Escreva("Digite a segunda nota: ")
+Leia("nota2")
+
+//Calculos
+
+media=(nota1 + nota2)/2
+
+//exibindo resultados 
+
+   escreva("Parabéns! Você está aprovado(a)!")
+caso media = 6.0 
+   escreva("Você está reprovado(a). Estude mais!")
+senao media = 4.0 
+   escreva("Você está em recuperação. Continue se esforçando!")
+  
+  }
+}
