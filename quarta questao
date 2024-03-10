@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+  //declaracao de variaveis
+  real kg, maca, morango, valorTotal
+
+//Leitura dos dados
+
+escreva("Digite a quantidade de morangos em kg: ")
+leia(morangos)
+escreva("Digite a quantidade de maçãs em kg: ")
+leia(maca)
+
+//Calculos
+
+se morango = 5
+    valorTotal += morango * 2.5
+senao
+    valorTotal += morango * 2.2
+
+se maca = 5
+    valorTotal += maca * 1.8
+senao
+    valorTotal += maca * 1.5
+
+//Exibindo resultados 
+
+escreva("O valor a ser pago pelo cliente é de: R$")
+  }
+}
