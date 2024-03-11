@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+  //declarando variaveis 
+   cadeia cor, precoCD 
+   real cor precoCD
+   
+    cor = escreva("Digite a cor do CD: ")
+
+se cor == "Verde":
+    escreva("O preço do CD é R$ 10,00")
+senao cor == "Azul":
+    escreva("O preço do CD é R$ 20,00")
+senao cor == "Amarelo":
+    escreva("O preço do CD é R$ 30,00")
+senao cor == "Vermelho":
+    escreva("O preço do CD é R$ 40,00")
+se:
+    escreva("Cor inválida")
+  }
+}
