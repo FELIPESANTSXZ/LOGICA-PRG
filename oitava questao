@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+//declarando variaveis
+
+ real rendaMensal, valorEmprestimo, prestacoes
+
+//leitura de dados
+
+escreva "Informe a renda mensal do solicitante: "
+leia rendaMensal
+
+escreva "Informe o valor total do empréstimo solicitado: "
+leia valorEmprestimo
+
+escreva "Informe o número de prestações desejadas: "
+leia prestacoes
+
+//exibindo resultados 
+
+se valorEmprestimo = rendaMensal * 10 e valorEmprestimo / prestacoes = rendaMensal * 0.3 entao
+    escreva "Empréstimo concedido"
+senao
+    escreva "Empréstimo não concedido"
+```
+ se estiverem, exibe a mensagem "Empréstimo concedido", caso contrário, exibe "Empréstimo não concedido".  
+  }
+}
