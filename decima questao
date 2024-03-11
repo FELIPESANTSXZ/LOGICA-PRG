@@ -1,0 +1,36 @@
+programa {
+  funcao inicio() {
+  //declaracao de variaveis 
+
+   real litros
+   caracter tipoCombustivel
+   real valorPago
+
+//leitura de dados 
+
+Escreva("Informe o número de litros vendidos: ")
+Leia(litros)
+
+Escreva("Informe o tipo de combustível (A-álcool ou G-gasolina): ")
+Leia(tipoCombustivel)
+
+//Executando
+
+se tipoCombustivel = "A" entao
+   se litros = 25 entao
+      valorPago &lt;- litros * 3.79 - (litros * 3.79 * 0.02)
+   senao
+      valorPago - litros * 3.79 - (litros * 3.79 * 0.04)
+   
+
+senao se tipoCombustivel = "G" entao
+   se litros = 25 entao
+      valorPago - litros * 6.59 - (litros * 6.59 * 0.03)
+   senao
+      valorPago - litros * 6.59 - (litros * 6.59 * 0.05)
+
+//exibindo dados ao usuario 
+
+Escreva("O valor a ser pago pelo cliente é de R$ ", valorPago)
+  }
+}
