@@ -1,0 +1,40 @@
+programa {
+  funcao inicio() {
+
+//Declaracao de variaveis
+  cadeia nome
+  real quantidade, precoUnitario, total, desconto, totalAPagar
+
+//Leitura dos dados 
+   Escreva("Digite o nome do produto: ")
+   Leia(nome)
+   
+   Escreva("Digite a quantidade adquirida: ")
+   Leia(quantidade)
+   
+   Escreva("Digite o preço unitário: ")
+   Leia(precoUnitario)
+   
+   //Calculos 
+   total = quantidade * precoUnitario
+
+
+   se quantidade = 5 entao
+      desconto - total * 0.02
+senao
+      se quantidade = 10 entao
+         desconto - total * 0.03
+      senao
+         desconto - total * 0.05
+   
+   totalAPagar - total - desconto
+    
+  //Exibindo dados 
+
+   Escreva("Total: ", total)
+   Escreva("Desconto: ", desconto)
+   Escreva("Total a pagar: ", totalAPagar)
+   
+   
+  }
+}
